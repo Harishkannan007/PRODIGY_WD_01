@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automobile Company</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .photo-collage {
+      display:grid ;
+      grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+      grid-gap: 10px; /* Adjust the gap between photos */
+    }
+    .photo-collage img {
+      max-width: 100%;
+      height: auto;
+    }
+    .photo-collage img:hover {
+      transform: scale(1.1); /* Increasing the scale of the image on hover */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="https://di-uploads-pod15.dealerinspire.com/lakeforestsportscars/uploads/2021/06/Ferrari-Logo.png" style="width: 60px;" alt="APEX">
+        
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="#home" class="nav">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="car.html">New Launches</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+
+  <header class="hero">
+    <div class="container1">
+      <h1>Welcome to UNIQUE AutoWorks</h1>
+      <p style="font-size: 20px;">Explore our latest vehicles and services.</p>
+    </div>
+  </header>
+
+  <section id="about" class="about-section">
+    <div class="container1">
+      <h2 style="font-size: 30px;">About Us</h2>
+      <p style="font-size: 25px;">Unique AutoWorks is a leading automobile company dedicated to delivering high-quality vehicles and exceptional services to its customers. Established in 1995, Unique AutoWorks has steadily grown into a renowned name in the automotive industry, known for its commitment to innovation, reliability, and customer satisfaction.</p>
+    </div>
+  </section>
+
+  <header class="hero">
+
+    
+    <section id="products" >
+      <div class="photo-collage">
+       
+        <div class="product">
+          <img src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/Mahindra-XUV700.png" alt="Car 1">
+      
+         
+        </div>
+        <div class="product">
+          <img src="https://files.porsche.com/filestore/image/multimedia/none/homepage-teaser-icc-718/normal/db4be0ec-f8f4-11eb-80db-005056bbdc38;sP;twebp/porsche-normal.webp" alt="Car 2">
+         
+      
+        
+        </div>
+        <div class="product">
+          <img src="https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1690214327/evo/2023/07/Porsche%20718%20Cayman%20GT4%20review%20main.jpg" alt="Car 2">
+         
+          
+         
+        </div>
+        <div class="product">
+          <img src="https://cdn.wheel-size.com/thumbs/35/db/35db5dcbb817964f590e72658b9e141c.jpg" alt="Car 2">
+         
+            
+         
+        </div>
+        <div class="product">
+          <img src="https://assets.meinauto.de/image/upload/q_auto:eco/f_auto/dpr_1.0/c_scale,h_614,w_920/v1//prod/toyota/grsupra/5/5coupe-pure/toyota_21grsuprapackpremcp5e_angularfront.png" alt="Car 2">
+          
+            
+         
+        </div>
+        <div class="product">
+          <img src="https://cdn.motor1.com/images/mgl/8AN2AJ/s1/volkswagen-golf-2024-restyling---foto.jpg" alt="Car 2">
+          
+          
+        </div>
+        
+       
+        <!-- Add more products here -->
+      </div>
+    </section>
+  </header>
+
+  <!-- <footer class="footer">
+    <div class="container1"> -->
+      <footer>
+
+        <div class="footer-left">
+          <p style="font-weight: bolder; font-size: 30px;">Driving Excellence, Car is Perfection</p>
+        </div>
+        <div class="footer-right">
+        <ul class="social-media">
+          <li><a href="https://www.instagram.com"><img src="https://static.vecteezy.com/system/resources/previews/018/910/691/non_2x/instagram-mobile-app-logo-instagram-app-icon-ig-app-free-free-vector.jpg" alt="Instagram"></a></li>
+          <li><a href="https://www.facebook.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8AgP8Adv8AeP8Ae//c6v/T5P8Afv++1v+Vvv8AdP8Aev/K3v/D2f+40/8Ac//p8v9kpP+Ouv+ry//l8P8niv/v9v+oyf93rf9Jl/8zjv8Xhv98sP9+sv/P4v9bn/8AbP+gxf9fof9mKvi6AAAEi0lEQVR4nO2d63KiQBBGgZkEBVTAG6LuJr7/Qy6a3dqYQGjG7rlY3/ltTeXUkJ57dxQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgKHbFvm4uh/aY5gkLSsfb9lCd5uti51ouihanY6ZyrdM0jTnp2tNaqex4Klzqbc4q0axi39FJft448iurTFrvr2RWlS4Ea0t+H461db9yq6z5XVFby91YJLyBZZw0sRpy1ivLfldW6ycXtKlYuBHsFC19qGXiSDCOEzvhZms7yPwn3doQrO0OE/coC+NimTkUjONM/jut7M1k+tCVtODGbRd2nSg9DT+77cKuE8/Chi7DzAdKVrBwNxb+I1mIGp5cf6TdZ3oSNTy69us4SgruXEfSK5nk9lThPtB0oUZy/r32wTDfCxrW7gNNF2ok56YehNLOsBE0rBgXTrcdX5UkSuV60nZyehE0PDAZapXpQzNfz4pfv4rle121KkuUprWeHgQNWw5DnRzPi28Rf/e6PtOaT1tBwy2DX9a8DjW/oIVqySH/ccGs+WG8ntEMU0HDR0Opjgf7b4Kh5OriwQFf/f65eaJhImj42NpJje1AhG6oR3qQbJh5akjY6wzckLBfHfZXqt7Hmw/bkDJMB21I2j8K2ZB2pBKyoSIdboZsSAvwARsSF63EtYWPhmo50vBuV242m30erOHwFmdZtzrruF3Zowl6aRgPNXhaEbcuPDdMh+bcW2KveW84dObXmq2oPTTM++ek74bNeWg4EEpNN+58NJz1NbYwjVs+GvZOu42vBPho2HseZry9HIyh8eAaiqH5eXIohpun78OXpzd8hSEMYejc8PkjDQxh6NQw1ff0vgR5WemvBGOYNvN76r672WU9//ozoqJ7w/7l4DjUxzgeGPYu6ceh3u0M15C45R2wYUD/h4aGF+K2RriG1Edx4RpSpwDBGpI3boI1JC+ngjVcUu8FBms4px61BWvYhDPzNjQkX5MP1pDoF7AheZc/VEP6mj9UQ+J1IT8MjVbA1LWTD4a6ni3v6bswtJstPlPQ31S5N4yvT7Y+078T9Xb/I/qJsAeG3/6kvnckQe8mwhCGMIQhDGEIQxjCEIYwfAJDydfqRs8j2A21oKHhvWVmw8EXOAwYJsJiNpRMgGl4+ZzXUDS3iWF+GmZDyfw01JN2WUPJ9Jfk4yFJQ9Gke4a5vpgNJXN90felBQ1p78INMcy5x2womXPP8J0Lr6Fo3kTDIZ/XUDT3pWHSPVZD4fylZq8iWQ2layQYhRpWw1xW0OzhJ6eheC5oo3zenIbi+byNcrIzGsrnZDfKq89oaCGvvkltBD5DG7URTOpbsBnaqW9hUKMkeWEytFSjJFpMrTPDZWirzsz0WkFMhh6XQ+IxtCk4tWYXh6Hlml0T664xGFqvuxZNqp33sKGL2nnRlPqHDxq6qn8Y0WtYPmKoE+WshuWN4lqHVI3UITUwvNUhza91SGWLrpDYFev6VB3abaxVf3HYt95Z29twMdn02B4uTb33oZYsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApvAHiS1bcv9TaMIAAAAASUVORK5CYII=" alt="Facebook"></a></li>
+          <li><a href="https://twitter.com"><img src="data:image/png;base64,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" alt="Twitter"></a></li>
+          <li><a href="mailto:info@example.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX///8AAABNTU1GRkZBQUFUVFRRUVHk5OTLy8tLS0v6+vqvr6/V1dVDQ0PPz8/f39/r6+tubm67u7vx8fEqKiqoqKizs7OLi4uZmZleXl5lZWUlJSV7e3vFxcUTExONjY0WFhaDg4Ofn58wMDAfHx87OztiYmJ0dHRdZFnnAAAEIElEQVR4nO3c61riMBSF4UZBpFZAOSjiedS5/zscRZA2zYmaTcI83/tb2V0g2zRJUxQAAAAAAAAAAAAAAAAAAAAAAAAAgPyNB4kKD6pSvkh5MVRKvcgXMrj/rHw5Fw45mqm13li2jsG491169SBZZa5+zCXruEu/ylVZqJrlAb4TP8plvbTYuztQDY/nUoVazh+bpaW+I0uleRIqpLvRC5/J1BnodZR6n8iUapi8twvLfIjzdiGlLkRK1V2Yyt6KlLoylVJ3sg2nvDNWXYoU6xtrqdVIpNq30cpcdChS7cRcTLLhPNlKnoqUsyZUPZmB6qBnrXjohEotBOotHPUOn1BdxW44pbmxpUuoHquoxapHZ7UUCeP+j7r11EqTUA1jjXAm3lKJEip1HaXQtb9QsoQxGo67xWxcRsjTFpJQrX7bcKpZSJmECX/bcHwtJoeEajjtXGIaWiNtwu4NJ6DFZJJQ3XdpOOV9eIHkCdVs/5vwcVCLOWTCZ/c17Dvl9+p+OW0Qd5CEy/Ef5zX19xnhTFuzXA2r6ixBwr73ixM+Of3gHmffTYvTJAm9ze8+8JU979TXbFeqhMVE++vRrEIajqfFnK4nELSEvYMl9A5C/A3HOEm5s5kESpiwqN6cV7h0j3CmH+6A25WDlAmL8q/7Il0N59z9q7vJ2KQJvQ3nxTbCKVsLEk21CfXECX0N593ccMb22cIvl/XfSp3Q23BMK37GBYmdm8YPp09YjC3z7xuthuMZxTxrawUZJPSOcJrrqfqap+ZKf0NySOhtOPU/O+uCxLf2ml0eCYvJ0Hnd79vlDceCROPn8kvobTjfn41rQULpLSa3hL6pss+7hKl7tvDZvP8hn4S+Ec7bwt1zPyyDvIwS7jOf1GbdFpBVQt8Ix+7SvtKaV8LgeV3Nk2OGLreEvuU/I+eOh+wSFoXnlqrFs2slRULfzqv9Go5v51GOCX0jnDrL7VVNlgnDG45xFNOUacKwxcC3kF2cuSb0zuGo9UAuQLYJ/Q0ncHNjxgmLqXZxDcEbVHNO6Go4AS1mI++ERWW+n9hno3jmCc07SDyz4U25JzQ1nP0eKcg/oX5Lte9DN0eQsNlwwlvMxlEk3DWcDs+iHEfC7S3VR4e9KMeScN1wOj21dDQJi8lHt8ddjidhVySMgoSiSBgFCUWRMAoSiiJhFCQURcIotIQnIkVsSBgFCUWRMAoSiiJhFCQURcIo/v+E/YwSyjydd5VRQplzouYZJZQ5uGmQUcK4h+H8aD7HI3Pclk0zoczXUP8QUyYU+gi1p80SJpQ5cW+tfiyAzCE4NvWEogdSPuwe+pX5p2tTSxjnICOrcr59KmsmW0izPb9hdtv9bJhg5bgafTrsScLVw5fRAeIBAAAAAAAAAAAAAAAAAAAAAAAAAH7rHzrDMQwlClqnAAAAAElFTkSuQmCC" alt="Gmail"></a></li>
+        </ul>
+        </div>
+      </footer>
+    <!-- </div>
+  </footer> -->
+
+  <script src="script.js"></script>
+</body>
+</html>

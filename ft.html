@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 3%;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 1px;
+}
+
+.navbar {
+  background-color: #0c0b0b;
+  color: #efeaea;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #f2eeee; /* default text color */
+  background-color: #070707; /* default background color */
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 35px; /* transition effect */
+}
+
+.nav-links li a:hover {
+  background-color: #f3f5f7; /* background color on hover */
+  color: #d60808; /* text color on hover */
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Description box styles */
+.description-box {
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  top: 110%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  height: 400px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.description-box1 {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  top: 120%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 20px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  justify-items: center;
+}
+
+.specifications {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.specifications h3 {
+  margin-bottom: 10px;
+}
+
+.detailed-description {
+  text-align: left;
+}
+p{
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="" style="width: 60px;" alt="APEX">
+        
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="car.html">New Launches</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <h3 style="font-size: 30px; text-align: center;">The All New McLaren 720S</h3>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="https://w0.peakpx.com/wallpaper/69/186/HD-wallpaper-2014-mclaren-p1-headlight-car.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://cdni.autocarindia.com/ExtraImages/20181122041253_21112018_mclaren_set_to_raise_the_roof.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://mclaren.scene7.com/is/image/mclaren/720s-spider-tile-1200x1200-1:crop-4x3?wid=1920&hei=1440" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  <div class="mySlides fade">
+    <img src="https://c4.wallpaperflare.com/wallpaper/953/255/642/mclaren-720s-mclaren-2017-cars-cars-wallpaper-preview.jpg" style="width:100%">
+    <div class="text">Caption Four</div>
+  </div>
+  <div class="mySlides fade">
+    <img src="https://mclaren.scene7.com/is/image/mclaren/720S_Spider_Arizona_Image__Front_1920x1080:crop-16x9?wid=1600&hei=900" style="width:100%">
+    <div class="text">Caption Five</div>
+  </div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<!-- Description Box -->
+<div class="description-box">>
+  <div class="specifications">
+    <h3 style="font-size: 30px;">Specifications:</h3>
+    <p>Engine: 2.0L Inline-4</p>
+    <p>Horsepower: 200 hp</p>
+    <p>Transmission: Automatic</p>
+  </div>
+</div>
+<div class="description-box1">>
+<div class="detailed-description">
+  <h3 style="font-size: 30px; text-align: center;">Detailed Description:</h3>
+  <p>A light and strong supercar shaped by the forces of nature. Honed by the elements. Poised for attack. And ferociously fast. Yet beautifully made, tactile and effortlessly usable, every day.
+
+    The McLaren 720S coupe is purposeful and radical. With apex predator responses. This light and strong supercar accelerates from 0-60mph in an incredible 2.8 seconds when provoked. And can cover a quarter of a mile in 10.4 seconds. From a standing start.
+    
+    But raw figures don’t reveal the whole story. There is pure driver engagement and contemporary luxury here too. In depth. A thrilling, accessible, natural balance.
+    
+    Evolution in full flight.</p>
+    <br><br>
+  <p>The McLaren 720S is born of the McLaren design philosophy: everything for a reason. The powerful simplicity and integrity of this ethos shapes stunning cars. Through an intense, evolutionary process. The radical shape of the 720S is inspired by the teardrop. Nature’s perfect aerodynamic form. It takes this shape because it helps to deliver superlative performance. And aerodynamic efficiency. Every design detail is the same. Created to improve performance. Sharpen handling. Intensify engagement. Enhance comfort. Beautifully.</p>
+
+</div>
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

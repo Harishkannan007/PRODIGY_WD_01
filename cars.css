@@ -1,0 +1,129 @@
+
+/* Car container styles */
+/* styles.css */
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 1px;
+}
+
+.navbar {
+  background-color: #0c0b0b;
+  color: #efeaea;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #f2eeee; /* default text color */
+  background-color: #070707; /* default background color */
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 35px; /* transition effect */
+}
+
+.nav-links li a:hover {
+  background-color: #f3f5f7; /* background color on hover */
+  color: #d60808; /* text color on hover */
+}
+
+
+.car-container {
+  display: flex;
+  flex-direction: column; /* Arrange cars vertically */
+  align-items: center; /* Center horizontally */
+}
+/* Car container styles */
+
+/* Car styles */
+.car {
+  position: relative;
+  margin: 20px;
+  text-align: center; /* Center text inside the car */
+}
+
+.car-image {
+  width: 800px;
+  height: auto;
+  transition: transform 0.3s ease;
+  border-radius: 35px;
+}
+
+.car:hover .car-image {
+  transform: scale(1.1);
+}
+
+.car-info {
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Move to the center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  width: 500px;
+  border-radius: 5px;
+  text-align: center; /* Center text */
+}
+/* Add these styles for slider */
+.slider-container {
+  width: 800px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider img {
+  width: 800px;
+  height: auto;
+}
+/* End of slider styles */
